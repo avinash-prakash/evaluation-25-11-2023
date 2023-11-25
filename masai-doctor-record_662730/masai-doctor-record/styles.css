@@ -1,0 +1,103 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1{
+    text-align: center;
+    color: rgb(0, 160, 255);
+    text-decoration: underline;
+  }
+
+  #full{
+    display: flex;
+    margin: auto;
+    width: 90%;
+  }
+
+  form{
+    width: 20%;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 20px;
+  }
+
+  #dlt{
+    background-color: red;
+  }
+
+  #btn{
+    background-color: transparent;
+    border: none;
+  }
+
+  input{
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  label{
+    font-weight: 700;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+  select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(0, 7, 219);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  form input[type="submit"]:hover {
+    background-color: rgb(10, 68, 185);
+  }
+  
+  
+  table tr:hover {
+    background-color: rgb(121, 156, 226);
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th{
+    background-color: rgb(32, 32, 232);
+    color: white;
+  }
+
+  #filter{
+    width: 200px;
+    margin-left: 45%;
+    margin-bottom: 5%;
+  }
+  
